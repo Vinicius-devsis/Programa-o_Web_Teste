@@ -3,9 +3,9 @@ body {
 }
 
 button {
-    background-color: ash;
+    background-color: green;
     color: white:
-    padding: 100px 100px;
-    border: none;
+    padding: 500px 500px;
+    border: red;
     cursor: pointer;
 }
