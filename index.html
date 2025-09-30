@@ -8,8 +8,15 @@
 <h1>Paulo Vaqueirão!</h1>
 <p id="demo">JavaScript can change HTML content.</p>
 
-<button type="button" onclick="document.getElementById('demo').innerHTML = 'Muzan Morreu!'">Clique Aqui!</button>
-
-
+<button type="button" onclick='myFunction()'>Clique Aqui!</button>
+<button type="button" onclick='myFunction2()'>Clique Aqui!</button>
+<script>
+    function myFunction() {
+     document.getElementById('demo').innerHTML = "Kokushibo Morreu";
+    }
+function myFunction2 () {
+    document.getElementById('demo').style.display="none";
+}
+</script>
 </body>
 </html>
